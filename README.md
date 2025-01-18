@@ -1,3 +1,12 @@
+## instalation
+
+1- pkg update && pkg upgrade -y
+2- pkg install python python2 python3
+3- pkg install git
+4- git clone https://github.com/waseemasmaeel/Weevely3.git
+5- cd Weevely3
+6- pip install -r requirements.txt
+
 Weevely
 =======
 
@@ -20,11 +29,6 @@ Weevely is a web shell designed for post-exploitation purposes that can be exten
 
 Upload weevely PHP agent to a target web server to get remote shell access to it. It has more than 30 modules to assist administrative tasks, maintain access, provide situational awareness, elevate privileges, and spread into the target network.
 
-Read the [Install](https://github.com/epinna/weevely3/wiki/Install) page to install weevely and its dependencies.
-
-Read the [Getting Started](https://github.com/epinna/weevely3/wiki/Getting-Started) page to generate an agent and connect to it.
-
-Browse the [Wiki](https://github.com/epinna/weevely3/wiki) to read examples and use cases.
 
 ### Features
 
